@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="validate.js"></script>
+  <title> Домашно по JS</title>
+</head>
+
+<body>
+  <nav class="box">
+  <form>
+    <input type="text" id="username" placeholder="Потребителско име" required>
+    <p class ="error"></p>
+    <input type="text" id="name" placeholder="Име" required>
+    <p class ="error"></p>
+    <input type="text" id="family-name" placeholder="Фамилия" required>
+    <p class ="error"></p>
+    <input type="email" id="email" placeholder="Имейл" required>
+    <p class ="error"></p>
+    <input type="password" id="password" placeholder="Парола" required>
+    <p class ="error"></p>
+    <input type="text" id="street" placeholder="Улица">
+    <p class ="error"></p>
+    <input type="text" id="city" placeholder="Град">
+    <p class ="error"></p>
+    <input type="text" id="postal-code" placeholder="Пощенски формат">
+    <p class ="error"></p>
+    <button type="submit" class="button" id="register-btn" onclick="validate()">Регистрирай ме!</button>
+    <!-- <button type="submit" class="register-btn">Регистрирай ме!</button> -->
+    <!-- <p id="success"></p> -->
+  </form>
+  </nav>
+</body>
+</html>

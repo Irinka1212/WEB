@@ -1,0 +1,71 @@
+body {
+	background-color: #defdf1;
+    justify-content: center;
+}
+
+.box{
+  background: #defdf1;
+  width: 350px;
+  margin: 0 auto 0 auto;
+  padding: 18px 8px 25px 8px;
+  border-style: solid;
+  border-top-style: 1px;
+  border-width: 1px;
+  border-color: #76a767;
+}
+
+input{
+  background: white;
+  width: 300px;
+  padding: 8px 8px;
+  margin: 12px 25px 0px 25px;
+  box-sizing: border-box;
+  border: solid 2px;
+  border-color: #dfe4de;
+}
+
+p{
+  margin-left: 25px;
+  font-size: 12px;
+  color: red;
+}
+
+.button{
+  background: #cfe7d9;
+  font-size: 14px;
+  color: #5f9992;
+  width: 300px;
+  padding: 8px 8px;
+  margin: 12px 25px 0px 25px;
+  border: solid 2px;
+  border-color: #dfe4de;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #a6a6a6;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover
+{
+	border-color: #79a06b;
+	outline:none;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus
+{
+	border-color: #79a06b;
+	outline:none;
+}
+
+button[type=submit]:hover
+{
+	background-color: #558d3d;
+	color:#cce5cf;
+	outline:none;
+}
+button[type=submit]:focus
+{
+	background-color: #558d3d;
+	color:#cce5cf;
+	outline:none;
+}
